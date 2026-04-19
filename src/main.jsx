@@ -5,6 +5,7 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    {/* <App /> */}
+    <h1>Allah is the best</h1>
   </StrictMode>,
 )

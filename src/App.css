@@ -68,6 +68,20 @@
     gap: 18px;
   }
 }
+.country{
+  border: 3px solid green;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+}
+.countries{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  justify-content: center;
+}
+.country-visited{
+  background-color: yellow;
+}
 
 #next-steps {
   display: flex;
